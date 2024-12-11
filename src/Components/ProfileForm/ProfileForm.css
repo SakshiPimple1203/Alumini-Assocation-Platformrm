@@ -1,0 +1,84 @@
+/* General reset for body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align to the top of the page */
+    background-color: #f4f7fc;
+    padding-top: 1px; /* Add space from the top */
+}
+
+/* Styling for the form container */
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: left; /* Align text to the left */
+    display: flex;
+    flex-direction: column; /* Stack the elements */
+}
+
+/* Heading styling */
+h1 {
+    color: #3182ce;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: left; /* Align text to the left */
+    margin-left: 20px; /* Move heading a little to the left */
+}
+
+/* Input field styling */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 15px; /* Add gap only between the input fields */
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #276899;
+}
+
+/* Styling for past experience fields */
+.past-company {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.past-company input {
+    margin-bottom: 10px;
+}
+
+button[type="button"] {
+    background-color: #4caf50;
+    margin-top: 10px;
+}
+
+button[type="button"]:hover {
+    background-color: #45a049;
+}

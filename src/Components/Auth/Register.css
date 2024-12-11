@@ -1,0 +1,36 @@
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #cbdbff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  /* form */
+.form-container{
+    width: 1000px;
+}
+.title,.slogan{
+   text-align: left;
+   margin-left: 20px; 
+}
+/* form */
+.form-container{
+  width: 1000px;
+}
+.title,.slogan{
+  text-align: left;
+  margin-left: 100px; 
+}
+.btn{
+  width: 100%;  
+}
+.alert{
+  margin-bottom: 1.5rem;
+}
+.auth-image{
+  width: 100%;
+  border-radius: 8px;
+}

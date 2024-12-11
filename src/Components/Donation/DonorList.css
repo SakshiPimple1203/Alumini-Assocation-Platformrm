@@ -1,0 +1,39 @@
+.donor-list {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.donor-list h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.donor-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.donor-list th, .donor-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.donor-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.donor-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.donor-list tr:hover {
+    background-color: #f1f1f1;
+}
+
+.donor-list td {
+    text-align: center;
+}

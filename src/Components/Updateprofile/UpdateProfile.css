@@ -1,0 +1,82 @@
+/* UpdateProfile.css */
+
+/* Main wrapper to center the update profile layout */
+.update-profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: flex-start; /* Align items at the start of the flex container */
+    height: 100vh; /* Full viewport height */
+    background-color: #007bff; /* Set the background color to blue */
+    background-image: url(C:\Users\saksh\OneDrive\Desktop\7thsempro\src\assets\background.jpeg);
+}
+
+/* Main container to hold the update profile layout */
+.update-profile-container {
+    display: flex;
+    justify-content: center; /* Center the content area */
+    align-items: center; /* Center items vertically within the container */
+    padding: 30px; /* Increased padding for more space */
+    max-width: 600px; /* Set a max-width for the box */
+    width: 100%; /* Full width of its parent */
+    margin: 150px auto; /* Increased top margin to move down further */
+    background-color: #f9f9f9; /* Keep the content background light */
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    /* background-image: url(C:\Users\saksh\OneDrive\Desktop\7thsempro\src\assets\background.jpeg); */
+}
+
+/* Content area for profile update */
+.update-profile-content {
+    width: 100%; /* Use full width for the content area */
+    padding: 20px;
+    background-color: #ffffff; /* Keep the form background white for contrast */
+}
+
+/* Title styling */
+.update-profile-content h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Form styling */
+.update-profile-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input styling */
+.update-profile-content input {
+    margin-bottom: 10px;
+    padding: 12px; /* Increased padding for input fields */
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Button styling */
+.update-profile-content button {
+    padding: 12px 20px; /* Increased button padding */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.update-profile-content button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .update-profile-container {
+        flex-direction: column;
+    }
+
+    .update-profile-content {
+        width: 100%;
+    }
+}

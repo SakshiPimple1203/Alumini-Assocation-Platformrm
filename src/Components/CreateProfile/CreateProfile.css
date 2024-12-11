@@ -1,0 +1,86 @@
+/* Background and Page Styling */
+.container {
+    background-color: #f4f0ff; /* Faint purple background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Form Container */
+.form {
+    background-color: #ffffff; /* White background for form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Form Title */
+.form-title {
+    text-align: center;
+    color: #6a0dad; /* Dark purple */
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.form-input,
+.form-textarea {
+    padding: 10px;
+    border: 1px solid #d3cce3;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+}
+
+/* Input Focus Effect */
+.form-input:focus,
+.form-textarea:focus {
+    border: 1px solid #6a0dad; /* Purple border on focus */
+    box-shadow: 0px 0px 5px rgba(106, 13, 173, 0.5);
+}
+
+/* Buttons */
+.form-button,
+.form-button-secondary {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.form-button {
+    background-color: #6a0dad; /* Purple color */
+    color: white;
+}
+
+.form-button:hover {
+    background-color: #531078; /* Darker purple on hover */
+}
+
+.form-button-secondary {
+    background-color: #e0e0e0; /* Light gray */
+    color: #6a0dad; /* Purple text */
+    border: 1px solid #6a0dad; /* Purple border */
+}
+
+.form-button-secondary:hover {
+    background-color: #f2f0ff; /* Very faint purple on hover */
+    color: #531078; /* Dark purple text */
+}
+
+/* Textarea Styling */
+.form-textarea {
+    resize: none;
+    height: 80px;
+}

@@ -1,0 +1,68 @@
+/* Sidebar CSS */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Initially hidden */
+    height: 100%;
+    width: 250px;
+    background-color:#3182ce;
+    padding-top: 60px;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.sidebar.open {
+    left: 0; /* Visible when the sidebar is open */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #3182ce;
+}
+
+/* Hamburger Icon */
+.hamburger {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+.hamburger .line {
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+    background-color: #3182ce;
+    transition: 0.4s;
+}
+
+/* Animation when sidebar is open */
+.hamburger .line.open:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger .line.open:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger .line.open:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
